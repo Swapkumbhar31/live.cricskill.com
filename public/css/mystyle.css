@@ -1,0 +1,85 @@
+footer{
+    background-color: rgb(51,51,51);
+    color: #ffffff;
+}
+.fa {
+    margin-right: 10px;
+}
+body{
+    font-family: helvetica,"Segoe UI",Arial,sans-serif;
+    background-color: #E3E6E3;
+}
+footer ul {
+    list-style: none;
+    font-size: 14px;
+    padding: 0;
+}
+footer li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+footer li:hover{
+    color: rgba(255,255,255,0.8);
+}
+footer li:before {
+    display: inline-block;
+    width: 2em; /* same as padding-left set on li */
+}
+.mycontainer{
+    background-color: rgba(255,255,255,0.8);
+    padding:10px;
+    color: black;
+}
+.navbar{
+    background-color: #29487d;
+    border-radius: 0px;
+}
+.navbar .second{
+    background-color: #4a4a4a;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: rgba(255,255,255,0.8);
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+.nav > li > a{
+    color: #000;
+}
+.nav-pills > li > a{
+    border-radius: 0px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    background-color: #4a4a4a;
+}
+.nav > li > a:hover{
+     color: #4a4a4a;
+ }
+.table{
+    color: black;
+    font-size: 13px;
+}
+.table img{
+    height: 30px;
+}
+.table-hover > tbody > tr:hover {
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    color:white;
+}
